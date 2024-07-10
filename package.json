@@ -1,0 +1,19 @@
+{
+  "name": "js_prac",
+  "version": "1.0.0",
+  "description": "javascript practing/learning",
+  "source": "src/index.html",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "veapach <egor_chapaev@bk.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
